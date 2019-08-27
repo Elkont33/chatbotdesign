@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <!-- Chat bot head -->
+    <head>
+        <title>Chat bot</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src="add.js"> </script>
+    </head>
+    
+    <!-- Chat bot head ends here -->
+    <!-- Chat bot body starts here -->
+    <body>
+        <!-- Chat bot question tag starts here -->
+            <h4> Question tag e.g greetings:</h4><br>
+<input type="text">
+<button class="add" onclick="addt()">Add</button>
+<button class="remove" onclick="removet()">remove</button>
+<div id="new_chq"></div>
+<input type="hidden" value="1" id="total_chq">
+        <!-- Chat bot questions tag ends here -->
+        <!-- Chat bot Questions starts here -->
+            <h4> Questions :</h4><br>
+<input type="text" id= "Q1" name="Question" placeholder="Ask your question here"><br>
+<input type="text" id= "Q2" name="Question" placeholder="Ask your question here"><br>
+<input type="text" id= "Q3" name="Question" placeholder="Ask your question here"><br>
+<input type="text" id= "Q4" name="Question" placeholder="Ask your question here"><br>
+<input type="text" id= "Q5" name="Question" placeholder="Ask your question here"><br>
+<input type="text" placeholder="ask your question here">
+<button class="add" onclick="addq()">Add</button>
+<button class="remove" onclick="removeq()">remove</button>
+<div id="new_chqq"></div>
+<input type="hidden" value="1" id="total_chqq">
+        <!-- Chat bot questions ends here -->
+        <!-- Chat bot Answer starts here -->
+            <h4>Answer:</h4><br>
+  <input type="text" id= "A1" name="answer" placeholder="Put your answer here">     
+            <br> <br>
+            <button type="button" id="clone" class="btn btn-primary" value="Submit" onclick="cloneform()"> Add new form </button>
+        <!-- Chat answer ends here -->
+    </body>
+    <!-- Chat bot body ends here -->
+</html>
